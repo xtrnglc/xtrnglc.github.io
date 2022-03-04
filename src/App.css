@@ -1,38 +1,257 @@
 .App {
   text-align: center;
+  font-family: 'laski-slab';
+  background-color: #912F2F;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header p {
+  font-size: 20px;
+  color: #C0C6CC;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header h1 {
+  font-size: 60px;
+  color: #efebdd;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 30px;
+  color: #efebdd;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  color: #efebdd;
+}
+
+.Header {
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Education-block {
+  margin-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Education-block h3 {
+  font-size:  22px;
+  color:  #C0C6CC;
 }
+
+.Education-block h4 {
+  font-family: 'laski-slab-thin';
+  font-size: 18px;
+  color:  #C0C6CC;
+}
+
+.General-block h2 {
+  /*margin-bottom: -2%;*/
+}
+
+
+.Socials * {
+  color:  #efebdd;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.Socials {
+   position: fixed;
+   left: 0;
+   bottom:  0;
+   margin-bottom: 10px;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+/*
+P. Mastrangelo & R. Espinoza Bold Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza ExtraLight Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 200;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza Black
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Light
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Book Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza Book
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Black Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 900;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza SemiBold Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 600;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza ExtraBold
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza ExtraBold Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 800;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza ExtraLight
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Regular
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Bold
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Light Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza Regular Italic
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza SemiBold
+
+font-family: laski-slab, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Black Italic
+
+font-family: laski-slab-stencil, sans-serif;
+
+font-weight: 900;
+
+font-style: italic;
+
+
+P. Mastrangelo & R. Espinoza Black
+
+font-family: laski-slab-stencil, sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Thin
+
+font-family: laski-slab-thin, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
+
+
+P. Mastrangelo & R. Espinoza Thin Italic
+
+font-family: laski-slab-thin, sans-serif;
+
+font-weight: 100;
+
+font-style: italic;
+*/
