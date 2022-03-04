@@ -50,6 +50,12 @@ p {
   color:  #C0C6CC;
 }
 
+.Education-block h5 {
+  font-family: 'laski-slab-thin';
+  font-size: 12px;
+  color:  #C0C6CC;
+}
+
 .General-block h2 {
   /*margin-bottom: -2%;*/
 }

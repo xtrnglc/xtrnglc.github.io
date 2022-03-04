@@ -31,23 +31,26 @@ class App extends Component {
 				<Row style={{marginTop:'-5%'}}>
 					<Col>
 						<div className="Education-block">
-							<h3>Master of Science, Business Analytics Dec '23</h3>
+							<h3>Master of Science, Business Analytics</h3>
 							<h4>University of California, Los Angeles</h4>
 							<h4>Anderson School of Management</h4>
+							<h5>Dec '23</h5>
 						</div>
 					</Col>
 				</Row>
         		<Row>
         			<Col>
 						<div className="Education-block">
-							<h3>Bachelor of Science, Computer Science May '18</h3>
+							<h3>Bachelor of Science, Computer Science</h3>
 							<h4>University of Utah, School of Computing</h4>
+							<h5>May '18</h5>
 						</div>
 					</Col>
     				<Col>
 						<div className="Education-block">
-							<h3>Associate of Science May'15</h3>
+							<h3>Associate of Science</h3>
 							<h4>Snow College</h4>
+							<h5>May'15</h5>
 						</div>
 					</Col>
 				</Row>
