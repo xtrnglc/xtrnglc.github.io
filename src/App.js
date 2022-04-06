@@ -14,15 +14,15 @@ class App extends Component {
     return (
          <div className="App">
         <Header></Header>
-
-        <div className="General-block">
-			<h2>About</h2>
-			<p>Under Construction...</p>
+        <div className="Body">
+				<div className="General-block">
+					<h2>About</h2>
+					<p>Under Construction...</p>
         </div>
 
         <div className="General-block">
-			<h2>Work</h2>
-			<p>Under Construction...</p>
+					<h2>Work</h2>
+					<p>Under Construction...</p>
         </div>
 
         <div className="General-block">
@@ -56,6 +56,9 @@ class App extends Component {
 				</Row>
         	</Container>
         </div>
+      	</div>
+
+        
 
         <Socials/>
         

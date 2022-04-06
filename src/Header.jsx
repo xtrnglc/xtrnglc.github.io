@@ -1,10 +1,12 @@
 import './App.css';
+import mainLogo from'./logowhite.png';
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="Header" style={{position:'relative'}}>
       <header>
-        <h1>
+      <img  src={mainLogo} style={{display: 'inline-block', width: '80px', height: '80px'}}/>
+        <h1 style={{display: 'inline-block'}}>
           Trung Le
         </h1>
         <p>

@@ -15,6 +15,10 @@
 
 }
 
+.Body {
+  min-height: 100vh;
+}
+
 h2 {
   font-size: 30px;
   color: #efebdd;
@@ -69,9 +73,8 @@ p {
 }
 
 .Socials {
-   position: fixed;
    left: 0;
-   bottom:  0;
+   bottom:  10;
    margin-bottom: 10px;
    width: 100%;
    color: white;
