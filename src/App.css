@@ -11,7 +11,7 @@
 }
 
 .nav-link {
-  font-size: 40px;
+  font-size: 2em;
   color: #efebdd;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .nav-link.active {
-  font-size: 42px;
+  font-size: 2.5em;
   font-weight: 700;
   color: #efebdd;
 }
@@ -41,13 +41,13 @@
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 5em;
   color: #efebdd;
   font-weight: 700;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.2em;
   color: #efebdd;
 }
 
@@ -62,19 +62,19 @@ p {
 
 
 .Education-block h3 {
-  font-size: 22px;
+  font-size: 1.5em;
   color: #efebdd;
 }
 
 .Education-block h4 {
   font-family: 'laski-slab-thin';
-  font-size: 18px;
+  font-size: 1.2em;
   color: #efebdd;
 }
 
 .Education-block h5 {
   font-family: 'laski-slab-thin';
-  font-size: 12px;
+  font-size: 1.1em;
   color: #efebdd;
 }
 
@@ -91,7 +91,7 @@ p {
   color: #efebdd;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 1.2em;
 }
 
 .Socials {

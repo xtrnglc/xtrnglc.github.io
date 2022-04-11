@@ -1,7 +1,7 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin, faYoutube, faCoffee } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope, faLocationDot} from "@fortawesome/free-solid-svg-icons"
+import { faFile, faEnvelope, faLocationDot} from "@fortawesome/free-solid-svg-icons"
 
 
 function Socials() {
@@ -41,6 +41,14 @@ function Socials() {
         trung.t.le@utah.edu
       </a>
     </p>
+
+    <p>
+      <a href="/trung-le-resume-2022.pdf" target="_blank" class="x1">
+      <FontAwesomeIcon className="Icon" icon={faFile} />
+        Resumé
+      </a>
+    </p>
+
     <p>
       <a href="mailto:trung.t.le@utah.edu" target="_blank" class="x1">
       <FontAwesomeIcon className="Icon" icon={faLocationDot} />
