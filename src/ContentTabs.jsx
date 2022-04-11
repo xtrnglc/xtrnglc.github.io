@@ -1,9 +1,9 @@
 import './App.css';
-import AboutPane from './AboutPane';
-import EducationPane from './EducationPane';
-import ContactPane from './ContactPane';
-import WorkPane from './WorkPane';
-import SkillsPane from './SkillsPane';
+import AboutPane from './panes/AboutPane';
+import EducationPane from './panes/EducationPane';
+import ContactPane from './panes/ContactPane';
+import WorkPane from './panes/WorkPane';
+import SkillsPane from './panes/SkillsPane';
 
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';

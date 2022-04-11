@@ -1,20 +1,20 @@
-import './App.css';
+import '../App.css';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import Socials from './Socials';
 
-function WorkPane() {
+function ContactPane() {
   return (
     <Container>
       <Row>
-        <Col sm={4}>
-          <p>Work placeholder</p>
+        <Col>
+          <Socials></Socials>
         </Col>
-        <Col sm={8}>
-        </Col>
+
       </Row>
     </Container>
   );
 }
 
-export default WorkPane;
+export default ContactPane;

@@ -1,12 +1,6 @@
 import * as d3 from 'd3';
-const subHeaderTextData = [
-  '> Software Engineer',
-  '> Full Stack Developer',
-  '> Data Engineer',
-  '> Data Scientist',
-  '> Data Visualizer',
-  '> Business Analyst'
-];
+import { CONSTANTS } from '../constants';
+const subHeaderTextData = CONSTANTS.subHeaderTextData;
 
 let i = 0;
 

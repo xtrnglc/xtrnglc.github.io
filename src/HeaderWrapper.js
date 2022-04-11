@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import D3Header from './D3Header';
+import D3Header from './d3/D3Header';
 
 const HeaderWrapper = ({}) => {
 	const headerArea = useRef(null)

@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import D3SkillsCloud from './D3SkillsCloud';
+import D3SkillsCloud from './d3/D3SkillsCloud';
 
 const SkillsBucketWrapper = ({name, skillsData}) => {
 	const skillsArea = useRef(null)

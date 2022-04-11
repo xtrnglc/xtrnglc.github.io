@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react'
 
 import HeaderWrapper from './HeaderWrapper';
-import Socials from './Socials';
+import Socials from './panes/Socials';
 import ContentTabs from './ContentTabs';
 
 import Row from 'react-bootstrap/Row';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <HeaderWrapper></HeaderWrapper>
-        <Container style={{marginTop: '5%'}}fluid>
+        <Container style={{marginTop: '2%'}}fluid>
           <ContentTabs/>
 
         </Container>

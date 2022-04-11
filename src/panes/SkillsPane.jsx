@@ -1,14 +1,14 @@
-import './App.css';
+import '../App.css';
 import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
-import SkillsBucketWrapper from './SkillsBucketWrapper';
-import HeaderWrapper from './HeaderWrapper';
+import SkillsBucketWrapper from '../SkillsBucketWrapper';
+import { CONSTANTS } from '../constants';
 
-const softwareDevelopmentData = ['skill1', 'skill2', 'skill3', 'skill4'];
-const dataEngineeringData = ['skill5', 'skill6', 'skill7', 'skill8'];
-const pmData = ['skill9', 'skill10', 'skill11', 'skill12'];
+const softwareDevelopmentData = CONSTANTS.softwareDevelopmentData;
+const dataEngineeringData = CONSTANTS.dataEngineeringData;
+const pmData = CONSTANTS.pmData;
 
 class SkillsPane extends Component {
   state = {
