@@ -43,7 +43,7 @@ function Socials() {
     </p>
 
     <p>
-      <a href="https://github.com/xtrnglc/xtrnglc.github.io/raw/src/src/trung-le-resume-2022.pdf" target="_blank" class="x1">
+      <a href="https://github.com/xtrnglc/xtrnglc.github.io/raw/src/src/assets/trung-le-resume-2022.pdf" target="_blank" class="x1">
       <FontAwesomeIcon className="Icon" icon={faFile} />
         Resumé
       </a>

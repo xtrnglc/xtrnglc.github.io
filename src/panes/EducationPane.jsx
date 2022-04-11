@@ -31,7 +31,7 @@ function EducationPane() {
           <h3>Bachelor of Science, Computer Science</h3>
           <h4>University of Utah</h4>
           <h4>School of Computing</h4>
-          <h5>May '18'</h5>
+          <h5>May '18</h5>
         </div>
         </Col>
         <Col sm={8}>
