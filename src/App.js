@@ -1,8 +1,9 @@
 import './App.css';
 import React, { Component } from 'react'
 
-import Header from './Header';
+import HeaderWrapper from './HeaderWrapper';
 import Socials from './Socials';
+import ContentTabs from './ContentTabs';
 
 import Row from 'react-bootstrap/Row';
 import Spinner from 'react-bootstrap/Spinner';
@@ -12,57 +13,15 @@ import Col from 'react-bootstrap/Col';
 class App extends Component {
   render() {
     return (
-         <div className="App">
-        <Header></Header>
-        <div className="Body">
-				<div className="General-block">
-					<h2>About</h2>
-					<p>Under Construction...</p>
-        </div>
+      <div className="App">
+        <HeaderWrapper></HeaderWrapper>
+        <Container fluid>
+          <ContentTabs/>
 
-        <div className="General-block">
-					<h2>Work</h2>
-					<p>Under Construction...</p>
-        </div>
+        </Container>
 
-        <div className="General-block">
-        	<Container>
-				<h2>Education</h2>
-				<Row style={{marginTop:'-5%'}}>
-					<Col>
-						<div className="Education-block">
-							<h3>Master of Science, Business Analytics</h3>
-							<h4>University of California, Los Angeles</h4>
-							<h4>Anderson School of Management</h4>
-							<h5>Dec '23</h5>
-						</div>
-					</Col>
-				</Row>
-        		<Row>
-        			<Col>
-						<div className="Education-block">
-							<h3>Bachelor of Science, Computer Science</h3>
-							<h4>University of Utah, School of Computing</h4>
-							<h5>May '18</h5>
-						</div>
-					</Col>
-    				<Col>
-						<div className="Education-block">
-							<h3>Associate of Science</h3>
-							<h4>Snow College</h4>
-							<h5>May'15</h5>
-						</div>
-					</Col>
-				</Row>
-        	</Container>
-        </div>
-      	</div>
 
-        
-
-        <Socials/>
-        
-    </div>
+      </div>
     )
   }
 }
