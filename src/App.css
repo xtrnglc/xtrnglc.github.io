@@ -39,19 +39,11 @@
   text-shadow: 0px 2px 2px #340F07;
 }
 
-.Header p {
-  font-size: 20px;
-  color: #C0C6CC;
-}
 
-.Header h1 {
-  font-size: 60px;
-  color: #efebdd;
-}
-
-.header-area {
+.header {
   -webkit-box-shadow: 1px 9px 4px -5px #000000;
   box-shadow: 1px 9px 4px -5px #000000;
+  text-shadow: 0px 2px 2px #340F07;
 }
 
 .Body {
@@ -68,16 +60,6 @@ p {
   font-size: 1.2em;
   color: #efebdd;
 }
-
-.Header {
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
 
 .Education-block h3 {
   font-size: 1.5em;
