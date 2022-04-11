@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <HeaderWrapper></HeaderWrapper>
-        <Container fluid>
+        <Container style={{marginTop: '5%'}}fluid>
           <ContentTabs/>
 
         </Container>

@@ -8,11 +8,10 @@ function ContactPane() {
   return (
     <Container>
       <Row>
-        <Col sm={4}>
+        <Col>
           <Socials></Socials>
         </Col>
-        <Col sm={8}>
-        </Col>
+
       </Row>
     </Container>
   );

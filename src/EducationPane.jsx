@@ -38,7 +38,7 @@ function EducationPane() {
         <div style={{textAlign:'left', width: '100%', height:'100%'}}>
           <span className="Paragraph-block">
             <p>Transferred as a junior into the Computer Science program at the University of Utah in Fall 2015.</p>
-            <p>During my the time at the U, I was involved in VASA (Vietnamese American Student Association) and HackTheU (Utah's first and largest hackathon)</p>
+            <p>During my the time at the U, I was involved in VASA (Vietnamese American Student Association) and HackTheU (Utah's first and largest hackathon).</p>
             <p>I was also a teaching asssistant in Mathmatics for various courses ranging from Calculus to Ordinary Differential Equations.</p>
             <p>My senior capstone project was the <a style={{color: '#efebdd', textDecoration: 'underline'}}href="http://melodysmith.herokuapp.com/">MelodySmith</a>, a music composition application.</p>
           </span>

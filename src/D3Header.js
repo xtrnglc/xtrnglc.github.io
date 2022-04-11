@@ -39,7 +39,9 @@ export default class D3Header {
      .attr("fill", "white")
      .style("opacity", 1)
      .style("z-index", "20")
-     .text(name);
+     .text(name)
+     .style("text-shadow", "0px 2px 2px #340F07")
+
 
      vis.g.append("text")
       .style("text-anchor", "middle")

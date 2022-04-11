@@ -3,6 +3,7 @@ import AboutPane from './AboutPane';
 import EducationPane from './EducationPane';
 import ContactPane from './ContactPane';
 import WorkPane from './WorkPane';
+import SkillsPane from './SkillsPane';
 
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -10,6 +11,9 @@ import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import Fade from "react-bootstrap/Fade";
+
+
 
 function ContentTabs() {
   return (
@@ -27,7 +31,10 @@ function ContentTabs() {
               <Nav.Link eventKey="third" className="Tablink">Work</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fourth" className="Tablink">Contact</Nav.Link>
+              <Nav.Link eventKey="fourth" className="Tablink">Skills</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="fifth" className="Tablink">Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
@@ -35,19 +42,23 @@ function ContentTabs() {
         <Col sm={9}>
           <Tab.Content>
 
-            <Tab.Pane eventKey="first" Fade>
+            <Tab.Pane transition={Fade} eventKey="first">
               <AboutPane />
             </Tab.Pane>
 
-            <Tab.Pane eventKey="second">
+            <Tab.Pane transition={Fade} eventKey="second">
               <EducationPane />
             </Tab.Pane>
 
-            <Tab.Pane eventKey="third">
+            <Tab.Pane transition={Fade} eventKey="third">
               <WorkPane />
             </Tab.Pane>
 
-            <Tab.Pane eventKey="fourth">
+            <Tab.Pane transition={Fade} eventKey="fourth">
+              <SkillsPane />
+            </Tab.Pane>
+
+            <Tab.Pane transition={Fade} eventKey="fifth">
               <ContactPane />
             </Tab.Pane>
 
