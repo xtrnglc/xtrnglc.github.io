@@ -44,7 +44,7 @@ export default class D3Header {
            .duration(3000)
            .ease(d3.easeLinear)
            .tween("text", function() {
-             var newText = subHeaderTextData[i % 4];
+             var newText = subHeaderTextData[i % 6];
                var textLength = newText.length;
                return function (t) {
                    this.textContent = newText.slice(0,
