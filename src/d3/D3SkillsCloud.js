@@ -13,10 +13,11 @@ export default class D3SkillsCloud {
 
 
     var simulation = d3.forceSimulation()
-    .force("charge", d3.forceManyBody().strength(-2))
+      .force("charge", d3.forceManyBody().strength(-2))
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
       .force("collide", d3.forceCollide().radius(d => d.id.length +30 + 1))
-      .force("center", d3.forceCenter(800/2, 800 / 4));
+      .force("center", d3.forceCenter(800/2, 800 / 4))
+
 
 
       var node = svg.append("g")
@@ -68,7 +69,7 @@ export default class D3SkillsCloud {
 
     simulation
       .nodes(CONSTANTS.data.nodes)
-      .on("tick", ticked);
+      .on("tick", ticked)
 
     simulation.force("link")
         .links(CONSTANTS.data.links);
@@ -84,10 +85,11 @@ export default class D3SkillsCloud {
           .attr("transform", function(d) {
             return "translate(" + d.x + "," + d.y + ")";
           })
+
     }
 
     function dragstarted(event, d) {
-      if (!d3.active) simulation.alphaTarget(0.5).restart();
+      if (!d3.active) simulation.alphaTarget(0.3).restart();
       d.fx = d.x;
       d.fy = d.y;
     }
@@ -95,10 +97,11 @@ export default class D3SkillsCloud {
     function dragged(event, d) {
       d.fx = event.x;
       d.fy = event.y;
+      simulation.alphaTarget(0).restart();
     }
 
     function dragended(event, d) {
-      if (!d3.active) simulation.alphaTarget(0);
+      if (!d3.active) simulation.alphaTarget(0).restart();
       d.fx = null;
       d.fy = null;
     }
